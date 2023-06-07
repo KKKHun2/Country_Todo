@@ -2,9 +2,20 @@
 
 typescript를 사용하고 router 설정,recoil을 사용해 atoms으로 저장하고 꺼내주기 
 
+input에 required사용해서 입력안했을시 에러메시지 출력
+
+<img src="https://github.com/KKKHun2/Country_Todo/assets/105702862/70e19174-2d37-423c-a405-ed66f35b7b8b.png"  width="600" height="400"/>
+
+recoil로 상태 저장
+                                                                                                                                 
+<img src="https://github.com/KKKHun2/Country_Todo/assets/105702862/9ff7d60d-db67-4856-b04e-1071e69c71f6.png"  width="600" height="500"/>
+
+
+
+
 <div align=center><h1>📚 FE STACKS</h1></div>
 
-<div align=center>
+<div align=left>
 <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=white">
 
 <img src="https://img.shields.io/badge/ReactRouter-CA4245?style=for-the-badge&logo=ReactRouter&logoColor=white">
@@ -14,12 +25,22 @@ typescript를 사용하고 router 설정,recoil을 사용해 atoms으로 저장�
 
 <img src="https://img.shields.io/badge/styledcomponents-DB7093?style=for-the-badge&logo=styledcomponents&logoColor=white">
 
-</br>
-
 <img src="https://img.shields.io/badge/Recoil-61DAFB?style=for-the-badge&logo=Recoil&logoColor=white">
 
 
 </div>
+
+# app 메인화면
+
+가보고픈 나라
+
+가본 나라
+
+좋아하는 나라
+
+![스크린샷 2023-06-07 오전 11 39 22](https://github.com/KKKHun2/Country_Todo/assets/105702862/a4493b42-5545-46cd-ab04-28ecbbcbc098)
+
+
 
 ## 커밋 규칙
 |아이콘| 설명 | 아이콘 | 설명 |
