@@ -52,7 +52,8 @@ function World({ text, category, id }: IToDo) {
     } = event;
     setToDos((oldToDos) => {
       const targetIndex = oldToDos.findIndex((toDo) => toDo.id === id);
-      return [...oldToDos.slice(targetIndex + 1)];
+      return [...oldToDos.slice(0, targetIndex),
+          ...oldToDos.slice(targetIndex + 1)];
     });
   };
 
@@ -66,12 +67,12 @@ function World({ text, category, id }: IToDo) {
         </WorldButton>
       )}
 
-      {category !== "TO_DO" && (
+      {  (
         <WorldButton name="TO_DO" onClick={onClick2}>
           <BsFillTrash3Fill className="logo2" />
         </WorldButton>
       )}
-      {category !== "DONE" && (
+      {category !== "DONE" && category !== "TO_DO" &&(
         <WorldButton name="DONE" onClick={onClick}>
           <FcLike className="logo2" />
         </WorldButton>
